@@ -45,7 +45,20 @@ To run the Social Network API locally, you need to have Node.js installed on you
 
 ## Usage
 
-Here is a walkthrough video of the API usage: 
+Here is a walkthrough video of the API usage: [Walkthrough video](https://drive.google.com/file/d/1HNtLBcwYWN_S1p350Uvk1xGNJoCnz_8_/view)
+
+Routes tested:
+- GET /api/users
+- GET /api/thoughts
+- POST /api/thoughts
+- POST /api/thoughts/:thoughtId/reactions
+- POST /api/thoughts/:thoughtId/reactions/:reactionId
+- PUT /api/users/:userId
+- PUT /api/thoughts/:thoughtId
+- DELETE /api/thoughts/:thoughtId
+- DELETE /api/thoughts/:thoughtId/reactions/:reactionId
+
+Tested with Insomnia.
 
 
 ## License
